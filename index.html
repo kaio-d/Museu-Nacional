@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<title>Museu Nacional</title>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/estilo.css">
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+<!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+<![endif]-->
+
+<head>
+    <body>
+    <div id="container"> <!--Inicio Conteiner-->
+        <header> <!--Inicio Header-->
+            <div id="logo">
+                <h1><a href="">Museu Nacional</a></h1>
+            </div>
+
+         <nav> <!--Inicio Nav-->
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Exposições</a></li>
+                    <li><a href="">Pesquisa</a></li>
+                    <li><a href="">Acervo</a></li>
+                    <li><a href="">Vídeos</a></li>
+                    <li><a href="">Fotos</a></li>
+                    <li><a href="">Contato</a></li>
+               </ul>
+        </nav> <!--Fim Nav-->
+        </header> <!--Fim Header-->
+
+
+        <div id="principal"><!--Inicio Conteúdo-->
+
+
+            <div id="conteudo">
+                <section id="capa">
+                    <img src="imagens/museu.png">
+                </section>
+                <section id="postagem">
+                    <article id="video">
+                        <h3>Conheça o Museu</h3>
+                        <iframe width="310" height="170" src="https://www.youtube.com/embed/RGUYb-hivrc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
+                    </article>
+
+                    <article id="mapa">
+                        <h3>Mapa do Museu</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.5229933427872!2d-46.61419927052021!3d-23.585569419328344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5b4931fee653%3A0x6a2a2528e3fe6253!2sIpiranga%20Museum!5e0!3m2!1sen!2sbr!4v1662580717225!5m2!1sen!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </article>
+
+                    <article id="exposicoes">
+                        <h3>Exposições</h3>
+                            <ul>
+                                <li><a href="#">Para Entender o Museu</a></li>
+                                <li><a href="#">Uma História do Brasil</a></li>
+                                <li><a href="#">Territórios em Disputa</a></li>
+                                <li><a href="#">Moedas e Medalhas</a></li>
+                                <li><a href="#">Independência ou Morte</a></li>
+                                <li><a href="#"><strong>Veja Mais</strong></a></li>
+                            </ul>
+                    </article>
+                    <article id="historia">
+                        <h3>História</h3>
+                        <p>O Museu do Ipiranga é o museu público mais antigo e um dos espaços culturas mais importantes de São Paulo. Muitas das peças presentes no museu têm uma relação forte com a Independência do Brasil, momento que impulsionou o nascimento deste espaço cultural e educacional tão valioso. </p>
+                        <a href="#"><strong>Leia Mais</strong></a>
+
+                    </article>
+
+                </section>
+            </div>
+
+            <aside> <!--Inicio Lateral-->
+                <section id="depoimento">
+                    <img src="imagens/depoimento.png">
+                </section>
+
+                <section id="visita"> <!--Inicio Visita-->
+                    <h4>Faça uma Visita</h4>
+                    <form>
+                        <fieldset>
+                            <legend>Selecione uma Data</legend>
+                            <label for="data">Data</label>
+                            <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+                            <label for="qtd">Qtd Pessoas</label>
+                            <input class="campo" style="width:30px;" type="text" id="qtd pessoas" value="1"> 
+                        </fieldset>
+                        <input class="botao" type="submit" value="Verificar Disponibilidade">
+                    </form>
+                </section> <!--Fim Visita-->
+
+                <section id="galeria"> <!--Inicio Galeria -->
+                    <h4>Galeria de Fotos</h4>
+                    <a href=""><img src="imagens/imagem1.jpg" width="93px" height="93px"></a>
+                    <a href=""><img src="imagens/imagem2.jpg" width="93px" height="93px"></a>
+                    <a href=""><img src="imagens/imagem3.jpg" width="93px" height="93px"></a>
+                    <a href=""><img src="imagens/imagem4.jpg" width="93px" height="93px"></a>
+                </section><!--Fim Galeria-->
+
+
+            </aside><!--Fim Lateral-->
+            <footer style="clear:both;">
+                <P>
+                    <a href="">Home</a>
+                    <a href="">Exposições</a>
+                    <a href="">Pesquisa</a>
+                    <a href="">Acervo</a>
+                    <a href="">Vídeos</a>
+                    <a href="">Fotos</a>
+                    <a href="">Contato</a>
+                </P>
+                <p>
+                    <a href="">2022 - Museu Nacional</a> - Todos os Direitos Reservados
+                </p>
+
+            </footer>
+        </div> <!--Fim Conteúdo-->
+             
+    </div> <!--Fim Conteiner-->
+
+
+
+
+
+
+
+
+
+
+    </body>
+</head>
+</html>
